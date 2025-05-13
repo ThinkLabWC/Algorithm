@@ -1,4 +1,4 @@
-package Week06;
+package Week06.suhyun.boj;
 
 import java.io.BufferedReader;
 import java.io.IOException;
