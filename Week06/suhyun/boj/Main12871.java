@@ -1,17 +1,20 @@
-package Week06;
+package Week06.suhyun.boj;
 
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.util.Arrays;
 
-public class Main1427 {
+public class Main12871 {
 	public static void main(String[] args) throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		char[] arr = br.readLine().toCharArray();
-		Arrays.sort(arr);
-		for(int i=arr.length -1; i>=0; i--){
-			System.out.print(arr[i]);
+		String s = br.readLine();
+		String t = br.readLine();
+		String a = s + t;
+		String b = t + s;
+		if(a.equals(b)){
+			System.out.println(1);
+		} else {
+			System.out.println(0);
 		}
 	}
 }

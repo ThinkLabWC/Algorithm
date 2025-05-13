@@ -1,9 +1,8 @@
-package Week06;
+package Week06.suhyun.boj;
 
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.util.Arrays;
 
 public class Main10610 {
 

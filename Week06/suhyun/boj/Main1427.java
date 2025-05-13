@@ -1,20 +1,17 @@
-package Week06;
+package Week06.suhyun.boj;
 
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.Arrays;
 
-public class Main14405 {
+public class Main1427 {
 	public static void main(String[] args) throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		String str = br.readLine();
-		String[] s = str.split("pi|ka|chu");
-		// System.out.println(Arrays.toString(s));
-		if(s.length == 0){
-			System.out.println("YES");
-		} else {
-			System.out.println("NO");
+		char[] arr = br.readLine().toCharArray();
+		Arrays.sort(arr);
+		for(int i=arr.length -1; i>=0; i--){
+			System.out.print(arr[i]);
 		}
 	}
 }
